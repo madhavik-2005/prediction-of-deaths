@@ -31,27 +31,27 @@ This project predicts future death counts for both males and females over a spec
 
 *Requirements*
 
-   1. Python 3.x
+      1. Python 3.x
+         
+      2.NumPy
       
-   2.NumPy
-   
-   3.Matplotlib
-   
-   4.Scikit-learn
-   
-   5.BeautifulSoup4 (for web scraping, if you are scraping data)
-   
-   6.Requests (for sending HTTP requests to retrieve data)
+      3.Matplotlib
+      
+      4.Scikit-learn
+      
+      5.BeautifulSoup4 (for web scraping, if you are scraping data)
+      
+      6.Requests (for sending HTTP requests to retrieve data)
 
 *Setup and Installation*
 
-   1.Clone the repository or download the project files.
-   
-   2.Install the required libraries:
-
-      pip install numpy matplotlib scikit-learn beautifulsoup4 requests
+      1.Clone the repository or download the project files.
       
-   3. Ensure that the models (model_total, model_female, model_male) and the polynomial transformer (poly) are already trained and saved as objects. These models are used to make predictions based on the historical data.
+      2.Install the required libraries:
+   
+            pip install numpy matplotlib scikit-learn beautifulsoup4 requests
+         
+      3. Ensure that the models (model_total, model_female, model_male) and the polynomial transformer (poly) are already trained and saved as objects. These models are used to make predictions based on the historical data.
 
 *How to Run*
 
