@@ -14,3 +14,13 @@ This project predicts future death counts for both males and females over a spec
 4. Data Visualization: The predictions are presented through line and area charts, providing a clear visualization of the predicted trends over time.
    
 5. Incremental Death Predictions: The model ensures that the predicted number of deaths increases over time, making the predictions realistic and in line with global trends.
+
+*Technologies Used*
+-Python: The project is implemented using Python, with key libraries including:
+   -NumPy: For numerical calculations and handling arrays.
+   -Matplotlib: For plotting the predicted death trends.
+   -Scikit-Learn: For implementing polynomial regression models.
+   
+-Web Scraping: Python's BeautifulSoup and Requests libraries (not included in the provided code but assumed for scraping purposes) are used to extract historical death data from websites.
+
+-Polynomial Regression: A polynomial regression model (of degree 3) is used for predicting future deaths based on historical data.
